@@ -22,7 +22,3 @@ print("Rischio Temporali:", previsioneT['previsione']['alert'])
 print("Rischio Idraulico:", previsioneI['previsione']['alert'])
 print("Rischio Idrogeologico:", previsioneG['previsione']['alert'])
 print("----")
-if previsioneT['previsione']['alert'] =='VERDE':
-    if previsioneI['previsione']['alert']=='VERDE':
-        if previsioneG['previsione']['alert']=='VERDE':
-            print("TUTTO BENE")
