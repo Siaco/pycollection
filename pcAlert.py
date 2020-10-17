@@ -22,3 +22,18 @@ print("Rischio Temporali:", previsioneT['previsione']['alert'])
 print("Rischio Idraulico:", previsioneI['previsione']['alert'])
 print("Rischio Idrogeologico:", previsioneG['previsione']['alert'])
 print("----")
+
+print("RISCHIO TEMPORALI")
+print("----")
+print(previsioneT)
+print("----")
+
+print("RISCHIO IDRAULICO")
+print("----")
+print(previsioneI)
+print("----")
+
+print("RISCHIO IDROGEOLOGICO")
+print("----")
+print(previsioneG)
+print("----")
