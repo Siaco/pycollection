@@ -1,5 +1,10 @@
 import urllib.request
 import json
+import argparse
+
+parser = argparse.ArgumentParser(description='Print the last alert issued for Frosinone by Protezione Civile Italiana')
+args = parser.parse_args()
+
 urlT = 'http://www.protezionecivilepop.tk/allerte?citta=060038&rischio=temporali&allerta=verde&giorno=domani&formato=json'
 urlI = 'http://www.protezionecivilepop.tk/allerte?citta=060038&rischio=idraulico&allerta=verde&giorno=domani&formato=json'
 urlG = 'http://www.protezionecivilepop.tk/allerte?citta=060038&rischio=idrogeologico&allerta=verde&giorno=domani&formato=json'
